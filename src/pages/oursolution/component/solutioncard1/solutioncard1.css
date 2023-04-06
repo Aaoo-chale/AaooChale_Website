@@ -1,0 +1,73 @@
+.feature_img{
+    height: 80vh;
+    width: 80%;
+    margin-top: 10%;
+}
+
+.card1para{
+    color: #1488CC;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card1heading{
+    color: black;
+    text-align: left;
+    font-size: 50px;
+    line-height: 1.4;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card1para1{
+    text-align: left;
+    font-size: 18px;
+    color: black;
+    line-height: 2;
+    font-family: 'Poppins', sans-serif;
+}
+
+.images_content{
+width: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+        
+        
+.function_text_content{
+    width: 50%;
+}
+.function_text_container{
+    width: 80%;
+    margin-top: 10%;
+}
+
+@media screen and (max-width: 768px) {
+    .images_content{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.feature_img{
+    width: 100%;
+}
+
+.function_text_content{
+    width:100%;
+   
+}
+.function_text_container{
+   padding: 0px 40px;
+   width: 100%;
+   margin-top: 5%;
+}
+
+.number_content{
+    padding: 0px 40px;
+    text-align: justify;
+}
+   
+}

@@ -1,0 +1,141 @@
+.blogdeatils_img{
+    height: 80vh;
+    width: 50%;
+}
+
+.blogdetail_heading{
+    font-weight: 700;
+    /* text-align: justify; */
+    padding: 40px 30px;
+    color: black;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.blogdetail_heading1{
+    text-align: justify;
+    color: black;
+    font-weight: 600;
+    padding-left: 50px;
+    padding-top: 30px;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+.blogdetail_paragraph{
+    text-align: justify;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 18px;
+    padding-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 2;
+
+}
+.nav_list{
+    text-decoration: none;
+}
+
+.blogdetail2_component{
+    width: 80%;
+}
+
+.blogdetai2_heading2{
+    color: black;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    padding: 0px 20px;
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+.blogdetail2_heading2{
+    text-align: justify;
+    color: black;
+    font-weight: 600;
+    padding-left: 50px;
+    padding-top: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.blogdetail_paragraph2{
+    text-align: justify;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 18px;
+    padding-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 2;
+}
+
+.blogdetail1_container{
+    width: 80%;
+}
+
+@media screen and (max-width:768px) {
+    .blogdetail2_component{
+        width: 100%;
+    }
+    .blogdetai2_heading2{
+        text-align: justify;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    padding: 0px 20px;
+    padding-top: 20px;
+    line-height: 1.4;
+    }
+
+    .blogdetail2_heading2{
+        text-align: justify;
+        font-family: 'Poppins', sans-serif;
+        padding: 0px 20px;
+        padding-top: 20px;
+    }
+
+    .blogdetail_paragraph2{
+        text-align: justify;
+        font-family: 'Poppins', sans-serif;
+        padding: 0px 20px;
+        padding-top: 20px;
+        
+    }
+
+    .blogdetail2_component img{
+         height: 50vh;
+         width: 100%;
+    }
+    .blogdetail1_container{
+        width: 100%;
+    }
+    .blogdetail1_container img{
+        height: 50vh;
+        width: 100%;
+    }
+    .blogdetail_heading{
+        text-align: justify;
+        font-size: 30px;
+        font-family: 'Poppins', sans-serif;
+        padding: 0px 20px;
+        padding-top: 20px;
+    
+    }
+    .blogdetail_paragraph{
+        text-align: justify;
+        font-family: 'Poppins', sans-serif;
+        padding: 0px 20px;
+        padding-top: 20px;
+    
+    }
+
+    .blogdetail_heading1{
+        text-align: justify;
+        font-family: 'Poppins', sans-serif;
+        padding: 0px 20px;
+        padding-top: 20px;
+    
+    
+    
+    }
+}

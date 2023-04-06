@@ -1,0 +1,15 @@
+.userfriendly_content{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+@media screen and (max-width: 768px) {
+    .userfriendly_content{
+      flex-direction: column;
+      align-self: center;
+      width: 100%;
+     margin-top: 10%;
+     margin-bottom: 10%;
+
+    }
+}

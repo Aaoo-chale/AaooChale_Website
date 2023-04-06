@@ -1,0 +1,41 @@
+
+.soiution7para1{
+    color: #1488CC;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1;
+
+}
+
+
+.soiution7heading{
+    font-size: 60px;
+    color: black;
+    line-height: 1.6;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+}
+
+.soiution7para{
+    font-size: 18px;
+    line-height: 1.3;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .soiution7para1{
+        text-align: justify;
+        padding: 0px 40px;
+    }
+    .soiution7heading{
+        font-size: 45px;
+        text-align: justify;
+        padding: 0px 40px;
+      
+    }
+    .soiution7para{
+        text-align: justify;
+        padding: 0px 40px;
+    }
+}

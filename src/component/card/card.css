@@ -1,0 +1,35 @@
+.heading_head{
+    color: black;
+    font-weight: bolder;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+}
+
+.paragraph_para{
+    color: black;
+    line-height: 2;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (max-width: 768px){
+    .main_container{
+       flex-direction: column;
+       align-items: center;
+      }
+      .ride_component {
+        height: auto;
+        flex-direction: column;
+      }
+      .heading_head {
+       font-size: 1.5rem;
+      }
+      .paragraph_para {
+        font-size: 1rem;
+      }
+    
+  }
+
+

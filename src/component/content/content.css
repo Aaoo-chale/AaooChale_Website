@@ -1,0 +1,81 @@
+
+.mainlayout {
+    justify-content: center;
+    display: flex;
+   align-items: center;
+   box-shadow:none;
+   background-color: pink;
+  }
+
+
+.para-head{
+    color: #1488CC;
+    font-weight: 550;
+    font-family: sans-serif;
+    font-size: 13px;
+    text-align: left;
+    line-height: 1;
+    font-family: 'Poppins', sans-serif;
+}
+
+.carpool{
+    font-size: 70px;
+    text-align: left;
+    color: black;
+    line-height: 1.;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+}
+
+.carpool-text{
+    text-align: left;
+    color: black;
+    line-height: 1.9;
+    font-family: 'Poppins', sans-serif;
+}
+
+.phone-img{
+    width: 80%;
+    height: 73vh;
+}
+
+.store_img {
+   height: 17.5vh;
+   width: 235px;
+   padding-left: -50px;
+   
+}
+
+.btn2{
+    color: white;
+    height: 8vh;
+    width: 40%;
+    border-radius: 5px;
+    border: none;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+ background-image: linear-gradient(to right, #1488CC 0%, #205CBE 51%, #2B32B2 100%);
+      
+}
+
+ /* button:hover {
+    background-color: #205CBE;
+    cursor: pointer;
+    color: white;
+  } */
+
+  @media screen and (max-width: 768px){
+    .phone-img{
+        width: 100%;
+        height: 60vh;
+    }
+    .store_img {
+        width: 177px;
+     }
+     .corpool_text{
+        margin-left: -20%;
+        width: 100%;
+     }
+  }
+
+  

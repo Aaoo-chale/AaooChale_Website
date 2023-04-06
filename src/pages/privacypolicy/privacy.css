@@ -1,0 +1,29 @@
+.privacy_heading{
+    font-size: 80px;
+    color: black;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+}
+
+.privacy_heading1{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-weight: bold;
+}
+
+.privacy_content{
+    width: 70%;
+}
+
+@media screen and (max-width: 768px) {
+    .privacy_content{
+        width: 100%;
+    }
+    .privacy_heading{
+        font-size: 60px;
+        color: black;
+        font-weight: bolder;
+        font-family: 'Poppins', sans-serif;
+    }
+   
+}

@@ -1,0 +1,39 @@
+.gallery-img{
+    height: 55vh;
+    width: 80%;
+}
+
+.discription_heading{
+    font-size: 55px;
+    color: black;
+    text-align: left;
+    line-height: 1.2;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+}
+
+.discription_text{
+    font-size: 17px;
+    color: black;
+    text-align: left;
+    line-height: 2;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hassle_content{
+width: 80%;
+align-self: center;
+margin-left: 50px;
+margin-top: 10%;
+}
+
+@media screen and (max-width:768px) {
+    .gallery-img{
+        width: 100%;
+        margin-top: 20%;
+        float: left;
+    }
+    .hassle_content{
+        width: 100%;
+    }
+}

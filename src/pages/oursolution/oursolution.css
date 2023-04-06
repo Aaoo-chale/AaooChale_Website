@@ -1,0 +1,36 @@
+.oursolution_paragraph1{
+    color: #1488CC;
+    line-height: 4;
+    font-family: 'Poppins', sans-serif;
+}
+
+.oursolution_heading{
+    font-size: 55px;
+    color: black;
+    line-height: 1.2;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+}
+
+.oursolution_paragraph2{
+    font-size: 17px;
+    line-height: 2;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+    .oursolution_paragraph1{
+       text-align: justify;
+       padding: 0px 30px;
+    }
+
+    .oursolution_heading{
+        text-align: justify;
+        font-size: 50px;
+        padding: 0px 30px;
+    }
+    .oursolution_paragraph2{
+        text-align: justify;
+        padding: 0px 30px;
+    }
+}

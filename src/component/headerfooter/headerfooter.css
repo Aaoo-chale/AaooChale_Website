@@ -1,0 +1,60 @@
+.headerfooter_heading{
+    font-size: 70px;
+    color: black;
+    font-weight: bolder;
+    line-height: 2.2;
+    font-family: 'Poppins', sans-serif;
+}
+
+.headerfooter_paragraph{
+    font-size: 18px;
+    line-height: 1;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn_btn1{
+    background-color: #1488CC;
+    height: 8vh;
+    width: 20%;
+    border-radius: 5px;
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 20px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+    .headerfooter_container {
+        flex-direction: row;
+        width: auto;
+        float: left;
+      }
+      .headerfooter_content {
+       width: 100%;
+      }
+      .headerfooter_card{
+        width: 100%;
+        /* margin-right: 10%; */
+        float: left;
+      }
+
+      
+      .headerfooter_heading {
+        font-size: 4rem;
+        line-height: 1.2;
+
+      }
+      
+      .headerfooter_paragraph {
+        font-size: 1.3rem;
+        text-align: justify;
+        line-height: 2;
+
+      }
+      
+      .store_img {
+        width: 200px;
+      }
+}

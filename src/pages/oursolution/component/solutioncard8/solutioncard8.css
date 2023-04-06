@@ -1,0 +1,34 @@
+.accordion-button{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: grey;
+    border: none;
+   
+}
+
+.accordion-button:hover{
+    background-color: white;
+    color: grey;
+
+}
+
+.faq_para{
+    font-size: 20px;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    line-height: 2;
+} 
+
+.fac_content{
+    width: 70%;
+}
+
+@media screen and (max-width:768px) {
+    .fac_content{
+        width: 100%;
+    }
+    .accordion-button{
+      line-height: 1.7;
+       
+    }
+}

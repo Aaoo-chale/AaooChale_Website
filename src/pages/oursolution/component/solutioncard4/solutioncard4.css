@@ -1,0 +1,35 @@
+.feature3_img{
+    height: 70vh;
+}
+
+.Hassle_content{
+    width: 60%;
+}
+.Hassle_container{
+    width:40%;
+}
+
+.Hassletext_container{
+    width: 90%;
+    margin-top: 15%;
+}
+
+
+@media screen and (max-width: 768px) {
+    .Hassle_content{
+        width: 100%;
+    }
+    .feature3_img{
+        height: 70vh;
+        width: 100%;
+        margin-top: -15%;
+    }
+    .Hassle_container{
+        width:100%;
+    }
+    .Hassletext_container{
+        width: 100%;
+        margin-top: 3%;
+        padding: 0px 40px;
+    }
+}

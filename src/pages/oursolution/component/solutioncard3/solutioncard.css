@@ -1,0 +1,61 @@
+.feature2_img{
+    height: 70vh;
+    margin-top: 7%;
+}
+
+.solucard3para{
+    color: #1488CC;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+}
+
+.solucard3heading{
+    color: black;
+    text-align: left;
+    font-size: 50px;
+    line-height: 1.3;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+}
+
+.solucard3para1{
+    color: black;
+    text-align: left;
+    line-height: 2.4;
+    font-family: 'Poppins', sans-serif;
+}
+
+.ourtrue_content{
+    width: 40%;
+}
+.ourtrue_container{
+    float: right;
+    width: 70%;
+    margin-top: 10%;
+}
+.mainimage_container{
+    width: 60%;
+}
+
+.carpool_img{
+    width: 80%;
+    height: 70vh;
+}
+@media screen and (max-width: 768px) {
+    .ourtrue_content{
+        width: 100%;
+
+    }
+    .ourtrue_container{
+        width: 100%;
+        float: left;
+        padding: 0px 40px;
+    }
+    .mainimage_container{
+        width: 100%;
+    }
+    .carpool_img{
+        width: 100%;
+        height: 70vh;
+    }
+}

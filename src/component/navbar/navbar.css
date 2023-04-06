@@ -1,0 +1,93 @@
+
+@media screen and (min-width:993px) {
+  
+  .dropdown .dropdown-menu.show
+  {
+    display: none !important;
+  }
+
+    .dropdown:hover .dropdown-menu
+    {
+      display: block !important;
+      /* border-bottom: 1px solid #1488CC; */
+    }
+    .dropdown:focus .dropdown-menu
+    {
+      display: block !important;
+    }
+   
+  }
+
+  .dropdown-item:hover{
+      background-color: #221c3b;
+      color: white;
+  }
+  .dropdown-item{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+    padding: 10px 20px;
+    font-size: 12px;
+    border-bottom: 1px solid #424242;
+
+
+}
+  .dropdown-menu{
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .nav-link:hover{
+    border-bottom: 3px solid #1488CC;
+    color: #1488CC;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .navbar-nav{
+    position: relative;
+    font-size: 16px;
+    /* color: lightgray; */
+    font-family: 'Poppins', sans-serif;
+
+  }
+  .dropdown-toggle span{
+    color: gray;
+    /* background-color: #1488CC; */
+   }
+   .active span{
+    color: gray;
+
+     /* background-color: #1488CC; */
+    }
+    .nav-link span{
+      color: gray;
+
+     /* background-color: #1488CC; */
+    }
+
+  .dropdown-toggle span:hover{
+   color: #1488CC;
+   /* background-color: #1488CC; */
+  }
+  .active span:hover{
+    color: #1488CC;
+    /* background-color: #1488CC; */
+   }
+   .nav-link span:hover{
+    color: #1488CC;
+    /* background-color: #1488CC; */
+   }
+
+  .nav-link::after{
+    opacity: 0;
+    transition: all 0.2s;
+    transition: ease-in-out;
+  }
+
+  .btn_btn{
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(to right, #1488CC 0%, #205CBE 51%, #2B32B2 100%);
+    border-radius: 3px;
+    border: none;
+  }
